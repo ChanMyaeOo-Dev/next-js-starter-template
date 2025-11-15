@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "json-server": "json-server --watch db.json --port 8000 --delay 1000"
   },
   "dependencies": {
     "flowbite-react": "^0.12.10",
