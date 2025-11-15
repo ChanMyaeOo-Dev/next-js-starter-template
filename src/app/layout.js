@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <section className="max-w-[1200px] mx-auto my-12">
+          {children}
+        </section>
       </body>
     </html>
   );
